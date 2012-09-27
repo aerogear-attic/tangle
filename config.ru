@@ -1,7 +1,8 @@
-
+require 'rubygems'
+require 'bundler'
+require 'bundler/setup'
 require 'tangle'
 require 'rack/reloader'
-
 
 use Rack::Reloader
 run Tangle

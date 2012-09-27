@@ -12,7 +12,7 @@ class Tangle < Sinatra::Base
   
   register Sinatra::Reloader
   get '/' do
-    "TorqueBox says 'hi'."
+    "AeroGear says 'hi'."
   end
 
   post '/' do
