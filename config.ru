@@ -1,5 +1,5 @@
-
-require 'tangle'
+require 'bundler/setup'
+require './tangle'
 require 'rack/reloader'
 
 
